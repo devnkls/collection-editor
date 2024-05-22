@@ -1,0 +1,23 @@
+{
+  "name": "collection-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devnkls/collection-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devnkls/collection-editor/issues"
+  },
+  "homepage": "https://github.com/devnkls/collection-editor#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
