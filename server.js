@@ -21,4 +21,8 @@ function selectCards(db) {
 
 module.exports = createDbConnection();
 
-// Connection can be run by entering "node express.js" in the terminal
+// Connection can be run by entering "node server.js" in the terminal
+
+
+
+
