@@ -3,7 +3,7 @@ const db = require("./server");
 
 function insertRow() {
   const [expansion_id, name_de, name_en, name_jp, release_date, cards_in_expansion] = process.argv.slice(2);
-  db.run(
+  db.run( //sql statement
     `INSERT INTO Expansion (expansion_id, name_de, name_en, name_jp, release_date, cards_in_expansion) VALUES (?, ?, ?, ?, ?, ?)`,
     [expansion_id, name_de, name_en, name_jp, release_date, cards_in_expansion],
     function (error) {
@@ -15,7 +15,7 @@ function insertRow() {
   );
 }
 
-insertRow();
+insertRow(); // call function
 
 
 /*
