@@ -1,4 +1,7 @@
 //require("./db");
+
+
+/*
 const db = require("./server");
 
 function insertRow() {
@@ -17,7 +20,7 @@ function insertRow() {
 
 insertRow(); // call function
 
-
+*/
 /*
 const createDbConnection = require("./server"); // Correct the path here
 const db = createDbConnection();
@@ -39,3 +42,13 @@ function insertRow() {
 
 insertRow();
 */
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("btn_add_card").addEventListener("click", function() {
+    alert("oh snap, i was clicked...");
+  });
+});
